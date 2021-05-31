@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="GetLicenseInfor">
+      <class name="com.rest.practise.GetLibrarySettings">
         <methods>
-          <include name="Test" invocation-numbers="2"/>
+          <include name="getSettings"/>
         </methods>
-      </class> <!-- GetLicenseInfor -->
+      </class> <!-- com.rest.practise.GetLibrarySettings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

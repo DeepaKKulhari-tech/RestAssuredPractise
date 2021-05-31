@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15415" started-at="2019-04-29T15:24:47Z" finished-at="2019-04-29T15:25:02Z">
+  <suite name="Default suite" duration-ms="6132" started-at="2021-05-17T10:29:45Z" finished-at="2021-05-17T10:29:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15415" started-at="2019-04-29T15:24:47Z" finished-at="2019-04-29T15:25:02Z">
-      <class name="GetLicenseInforTest">
-        <test-method status="PASS" signature="testGetLicenseInfor_AllValidParamters(java.lang.String, java.lang.String)[pri:0, instance:GetLicenseInforTest@146ba0ac]" name="testGetLicenseInfor_AllValidParamters" duration-ms="8617" started-at="2019-04-29T20:54:47Z" data-provider="getISBN" finished-at="2019-04-29T20:54:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9781575051949]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70239]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="6132" started-at="2021-05-17T10:29:45Z" finished-at="2021-05-17T10:29:51Z">
+      <class name="com.rest.practise.SearchAPI">
+        <test-method status="PASS" signature="doSearch()[pri:0, instance:com.rest.practise.SearchAPI@204f30ec]" name="doSearch" duration-ms="6114" started-at="2021-05-17T15:59:45Z" finished-at="2021-05-17T15:59:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetLicenseInfor_AllValidParamters -->
-        <test-method status="PASS" signature="testGetLicenseInfor_AllValidParamters(java.lang.String, java.lang.String)[pri:0, instance:GetLicenseInforTest@146ba0ac]" name="testGetLicenseInfor_AllValidParamters" duration-ms="5235" started-at="2019-04-29T20:54:55Z" data-provider="getISBN" finished-at="2019-04-29T20:55:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9781223089171]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70239]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetLicenseInfor_AllValidParamters -->
-        <test-method status="PASS" signature="testGetLicenseInfor_AllValidParamters(java.lang.String, java.lang.String)[pri:0, instance:GetLicenseInforTest@146ba0ac]" name="testGetLicenseInfor_AllValidParamters" duration-ms="1515" started-at="2019-04-29T20:55:00Z" data-provider="getISBN" finished-at="2019-04-29T20:55:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9781554982035]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70239]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetLicenseInfor_AllValidParamters -->
-      </class> <!-- GetLicenseInforTest -->
+        </test-method> <!-- doSearch -->
+      </class> <!-- com.rest.practise.SearchAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

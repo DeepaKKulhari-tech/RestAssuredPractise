@@ -27,7 +27,7 @@ public class AccessToken {
 
 		JsonPath js = ReusableMethods.rawToJson(resp);
 		String ss = js.get("access_token");
-		//System.out.println("The String is" + ss);
+		System.out.println("The String is" + ss);
 
 	}
 }
